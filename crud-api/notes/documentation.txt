@@ -1,0 +1,31 @@
+#2 GoLang Project: CRUD API for Movies (Postman Testing)
+================================================================================
+Directories & Functions:
+"/movies" : Get all movies, Create movies
+"/movies/id : Get, update, delete movie by ID
+
+Important Notice:
+1. There is no database involved. Project uses structs.
+2. Initial movie data is hardcoded in main function.
+3. Update API is not implemented as per working standard
+- Preferred Implementation (with Database)
+> Find item based on id given and manipulate data according to given parameters
+- Current Implementation
+> Deletes initial item by id given & creates new item with given parameters
+
+---------------------------------------------------------------------------------
+
+How to run:
+- Prerequistes: Go (& it's VSC extension) installed
+1. On powershell, cd to project folder
+2. Create Go module "go mod init example.com"
+3. Install gorilla mux packages "go get "github.com/gorilla/mux""
+4. Build project "go build"
+5. Run program "go run main.go"
+
+Languages Used:
+1. GoLang
+
+Additional Libraries/ Tools Used:
+- Gorilla Mux
+- Postman
