@@ -1,0 +1,18 @@
+First GoLang Project: Basic Static Website
+-------------------------------------------------------------------
+Directories:
+"/" : Main page, displays title "Static Website"
+"/form.html" : Input Form page, users can type in a Name & Address
+"/form" : View submitted data from user or errors
+"/hello" : Displays greeting text "Hello!"
+
+How to run:
+- Prerequistes: Go (& it's VSC extension) installed
+1. On powershell, cd to project folder
+2. Create Go module "go mod init example.com"
+3. Build project "go build"
+4. Run program "go run main.go"
+
+Languages Used:
+1. GoLang
+2. HTML
